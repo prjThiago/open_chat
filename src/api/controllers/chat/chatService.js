@@ -28,6 +28,8 @@ const IO = (app, urlPath) => {
       }
     })
   })
+
+  return io;
 }
 
-module.exports = IO
+module.exports = IO;
